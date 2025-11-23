@@ -60,7 +60,7 @@ class MergeSort {
 
     public static void main(String args[]){
         
-        int arr[] = {8, 2, 4, 10, 56, 1, 700, 7, 1};
+        int arr[] = {8, 2, 4, 10, 56, 1, 700, 7};
         
         mergeSort(arr, 0, arr.length - 1);
         
@@ -70,3 +70,5 @@ class MergeSort {
         System.out.println();
     }
 }
+
+OUTPUT : 1,2,4,7,8,10,56,700
